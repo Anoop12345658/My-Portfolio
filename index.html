@@ -5,79 +5,228 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://use.typekit.net/bcz0ugt.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <title>Portfolio - Anoop Pratap Singh</title>
 </head>
 <body>
-    <section class="banner">
+    <section id="home" class="banner">
         <header>
-            <a href="#" class="logo">Sanskar<span>.</span>Creation</a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+            <a href="#" class="logo">Sanskar<span>•</span>Creation<span class="by">by</span><span class="name">Anoop Pratap Singh</span></a>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="indicator"></div>
+            </nav>
         </header>
         <div class="content">
-            <h2>Hi, I'm <span id="text">Anoop</span></h2>
+            <h2>Hi, I'm <span id="text"></span></h2>
             <p>Let's Break The Matrix</p>
-            <button><a href="https://anoop12345658.github.io/Hubofwebsites.github.io/"></a> Join Me</button>
+            <a href="https://anoop12345658.github.io/Hubofwebsites.github.io/" class="btn">Join Me</a>
             <button class="chat">Let's Chat</button>
         </div>
+        <div class="semicircle-border"></div>
+        <div class="semicircle-border-top"></div>
+        <div class="profile-image">
+            <img src="src/ME.png" alt="Anoop Pratap Singh">
+        </div>
+        <div class="yellow-circle"></div>
         <div class="dayNight">
             <ion-icon name="moon-outline"></ion-icon>
             <ion-icon name="sunny-outline"></ion-icon>
         </div>
     </section>
 
-    <section class="about">
+    <section id="about" class="about">
         <div class="about-content">
             <h2><span>• </span>About Me</h2>
-            <p>I am Anoop Pratap Singh, a driven and creative Computer Science Engineer with a passion for web development, graphic design, and vector art. I thrive in collaborative environments and enjoy contributing to innovative projects.</p>
-            <p>My expertise lies in front-end development, utilizing technologies like HTML, CSS, JavaScript, Angular, and React to create user-friendly and visually appealing websites. I am also proficient in UI/UX design and video editing, ensuring a holistic approach to web development.</p>
+            <p>A focused Computer Science Engineer with a strong interest in web development, graphic design, and Vector Art. Eager to contribute to a dynamic team and continue expanding knowledge and skills in a collaborative environment.</p>
+            <p>Proficient in Agile methodology, project management, and team leadership. Driving successful cross-functional collaboration and ensuring high-quality deliverables in computer science engineering projects.</p>
+            <p>Achieved a 35% decrease in page load time through comprehensive unit-testing and bug rectification as a Front End Developer.</p>
+            <p>Implemented innovative UI/UX designs, resulting in a 40% increase in website traffic as an React Developer. Experienced in video editing, streamlining processes for increased productivity.</p>
+            <h3>Education</h3>
+            <div class="education-details">
+                <div>
+                    <h4>Bachelor of Technology in Computer Science</h4>
+                    <p>Government Engineering College Koni Bialspur [CSVTU] - 2023</p>
+                </div>
+                <div>
+                    <h4>12th Grade</h4>
+                    <p>JB Memorial Manas Academy, Pithoragarh, Uttarakhand - 2019</p>
+                </div>
+                <div>
+                    <h4>10th Grade</h4>
+                    <p>JB Memorial Manas Academy, Pithoragarh, Uttarakhand - 2017</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section class="skills">
+    <section id="skills" class="skills">
         <div class="skills-content">
             <h2><span>• </span>My Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Angular</li>
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Python</li>
-                <li>UI/UX Design</li>
-                <li>Graphic Design</li>
-                <li>Video Editing</li>
-                <li>Git</li>
-            </ul>
+            <div class="skills-grid">
+                <div class="skills-column">
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li>Angular</li>
+                        <li>JavaScript</li>
+                        <li>Cascading Style Sheets</li>
+                        <li>HTML</li>
+                        <li>Python</li>
+                        <li>Next Js</li>
+                        <li>Node Js</li>
+                        <li>React Js</li>
+                        <li>AI Technologies</li>
+                    </ul>
+                </div>
+                <div class="skills-column">
+                    <h3>Core Competencies</h3>
+                    <ul>
+                        <li>User Interface Design</li>
+                        <li>User Experience Optimization</li>
+                        <li>Web Application Development</li>
+                        <li>Graphic Design Principles</li>
+                        <li>Creative Visualization</li>
+                        <li>Full Stack Development</li>
+                        <li>Agile Methodologies</li>
+                        <li>MERN Developer</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section class="resume">
+    <section id="experience" class="resume">
         <div class="resume-content">
-            <h2><span>• </span>My Resume</h2>
-            <div class="resume-item">
-                <h3>Front-End Developer</h3>
-                <p>Rashmi Group, Kolkata | June 2023 - Present</p>
-                <p>Leading the development of user-friendly UIs using React and Vue.js, optimizing SEO, and collaborating with the marketing team to improve website traffic.</p>
+            <h2><span>• </span>Work Experience</h2>
+            <div class="experience">
+                <h4>Brainwave Matrix Solutions | Kolkata [Remote]</h4>
+                <p class="company">Full Stack Web Developer (Intern) | Aug'24 - Present</p>
+                <ul>
+                    <li>Designed and developed high-performance, scalable full-stack web applications using React, Node.js, MongoDB, and Express.</li>
+                    <li>Collaborated closely with cross-functional teams to understand business requirements and translate them into effective technical solutions.</li>
+                    <li>Implemented robust unit and integration testing frameworks to ensure the quality and stability of web applications.</li>
+                    <li>Optimized page load times and improved overall user experience through performance optimization techniques.</li>
+                    <li>Contributed to the ongoing enhancement of the company's web presence by integrating SEO best practices.</li>
+                </ul>
             </div>
-            <div class="resume-item">
-                <h3>Angular Developer (Internship)</h3>
-                <p>Trendify E-Commerce, Gujarat | Sept 2023 – Nov 2023</p>
-                <p>Developed the website's front-end using Angular, Bootstrap, and TypeScript, and implemented new features to enhance user engagement.</p>
+            <div class="experience">
+                <h4>FreeLancing | Kolkata [Remote]</h4>
+                <p class="company">Front End Developer | Jun'23 - Aug'24</p>
+                <ul>
+                    <li>Led the creation of user-friendly UIs through React and Angular, optimizing SEO capabilities for enhanced user experience.</li>
+                    <li>Collaborated with the Marketing Team to implement SEO strategies, resulting in increased organic search traffic.</li>
+                    <li>Demonstrated expertise in optimization techniques, applied unit-testing to identify bugs and errors, and decreased page load time by 35%.</li>
+                    <li>Applied optimization techniques and unit testing to identify and rectify bugs, resulting in a 35% decrease in page load time.</li>
+                    <li>Collaborated effectively with developers and designers to ensure the quality and functionality of web applications.</li>
+                </ul>
             </div>
-            <div class="resume-item">
-                <h3>Video Editor (Internship)</h3>
-                <p>Samagra Foundation, Delhi | May 2022 – Jul 2023</p>
-                <p>Edited and delivered high-quality videos, improving efficiency by introducing new editing techniques.</p>
+            <h2><span>• </span>Internships</h2>
+            <div class="experience">
+                <h4>Trendsify - e Commerce, Gujrat</h4>
+                <p class="company">Angular Developer | Sept'23 - Nov'23</p>
+                <ul>
+                    <li>Utilized Angular framework, Bootstrap, and TypeScript to develop the website front-end.</li>
+                    <li>Spearheaded the integration of a new feature, leading to an increase in user interaction and a decrease in bounce rate.</li>
+                </ul>
             </div>
-            <a href="resume.pdf" class="resume-btn">Download Resume</a> 
+            <div class="experience">
+                <h4>Samagra Foundation | Delhi</h4>
+                <p class="company">Video Editor | May'22 - Jul'23</p>
+                <ul>
+                    <li>Edited and delivered high-quality videos for multiple series, meeting strict deadlines and quality standards.</li>
+                    <li>Introduced a new editing technique, reducing video production time.</li>
+                </ul>
+            </div>
         </div>
     </section>
+
+    <section id="projects" class="projects">
+        <div class="resume-content">
+            <h2><span>• </span>Projects</h2>
+            <div class="project-grid">
+                <div class="project-item">
+                    <h3>Hashtone QR Code</h3>
+                    <p class="date">Aug'20 - Sep'23</p>
+                    <p>A web application developed for generating QR codes using images provided by users. The QR code resembled the provided photo.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Attendsify</h3>
+                    <p class="date">Feb'21 - Aug'23</p>
+                    <p>Developed a web application for educational institutions to manage student attendance using QR codes.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Rent All</h3>
+                    <p class="date">May'22 - May'23</p>
+                    <p>A social service website designed to simplify the renting process for various items.</p>
+                </div>
+                <div class="project-item">
+                    <h3>FHSC</h3>
+                    <p class="date">Feb'22 - Jan'23</p>
+                    <p>Developed a website providing comprehensive summaries of cities, focusing on reviews.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Billing</h3>
+                    <p class="date">Jan'20 - Aug'20</p>
+                    <p>An Android application developed using Flutter for generating bills for retailers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="certifications">
+        <div class="resume-content">
+            <h2><span>• </span>Certifications</h2>
+            <div class="certification-grid">
+                <div class="certification-item">
+                    <img src="src/certificate1.jpg" alt="Machine Learning Internship">
+                    <p>Machine Learning Internship | Internshala.</p>
+                </div>
+                <div class="certification-item">
+                    <p>Introduction to AI using Pandas by Microsoft | MTA | 2022</p>
+                </div>
+                <div class="certification-item">
+                    <p>Web Development Internship at Internshala | 2022</p>
+                </div>
+                <div class="certification-item">
+                    <p>Introduction to Programming Using Python by Microsoft | 2019</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="resume-content">
+            <h2><span>• </span>Contact Me</h2>
+            <div class="contact-info">
+                <p><strong>Address:</strong> 5 K Venaetesh Heights Laxmi Narayan Road Dum Dum Cant Kolkata</p>
+                <p><strong>Email:</strong> <a href="mailto:anoopp780@gmail.com">anoopp780@gmail.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+917830454986">+91-7830454986</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/anoop-pratap-singh99100a196" target="_blank" rel="noopener noreferrer">linkedin.com/in/anoop-pratap-singh99100a196</a></p>
+            </div>
+            <h2><span>• </span>Personal Details</h2>
+            <div class="contact-info">
+                <p><strong>Date of Birth:</strong> 28th October 2001</p>
+                <p><strong>Language Known:</strong> Hindi & English</p>
+            </div>
+            <h2><span>• </span>Extra-Curricular</h2>
+            <div class="contact-info">
+                <p><strong>Paper Publication:</strong> International Journal of Innovative Research in Computer and Communication Engineering (2022)</p>
+                <p><strong>Workshop:</strong> Artificial Intelligence Workshop Ethical Edufabrica Pvt. Ltd. (2019)</p>
+            </div>
+        </div>
+    </section>
+
+    <div id="wave-container" class="wave-container"></div>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
